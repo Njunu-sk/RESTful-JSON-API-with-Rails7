@@ -57,3 +57,4 @@ group :test do
 end
 
 gem 'jwt'
+gem 'jsonapi-serializer'

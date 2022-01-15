@@ -104,6 +104,8 @@ GEM
     io-wait (0.2.1)
     irb (1.4.1)
       reline (>= 0.3.0)
+    jsonapi-serializer (2.2.0)
+      activesupport (>= 4.2)
     jwt (2.3.0)
     loofah (2.13.0)
       crass (~> 1.0.2)
@@ -232,6 +234,7 @@ DEPENDENCIES
   debug
   factory_bot_rails
   faker!
+  jsonapi-serializer
   jwt
   puma (~> 5.0)
   rails (~> 7.0.1)
