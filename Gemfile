@@ -58,3 +58,4 @@ end
 
 gem 'jwt'
 gem 'jsonapi-serializer'
+gem 'will_paginate', '~> 3.3', '>= 3.3.1'
