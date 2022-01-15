@@ -6,6 +6,7 @@ class ApiVersion
     @default = default
   end
 
+  # check whether version is specified or is default
   def matches?(request)
     check_headers(request.headers) || default
   end
@@ -14,6 +15,6 @@ class ApiVersion
 
   def check_headers(headers)
     accept = headers[:accept]
-    accept && accept.include?("application/vnd.todos#{version}+json")
+    accept && accept.include?("application/vnd.todos.#{version}+json")
   end
 end
